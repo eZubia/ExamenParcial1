@@ -1,0 +1,26 @@
+doctype html
+html
+  head
+    title Calculadora
+  body
+    div
+      form(id="login", method="POST", action="/resultado")
+        div
+          div
+            label(for="email") Primer número:
+          div
+            input( type="text", name="x", id="x")
+        div
+          div
+            label(for="pass") Operación (+,-,*,/):
+          div
+            input(type="y", name="operacion" id="operacion")
+        div
+          div
+            label(for="pass") Segundo número:
+          div
+            input(type="y", name="y" id="y")
+        div
+          input(type="submit", value="Calcular")
+      form(id="login", method="GET", action="/")
+        input(type="submit", value="Limpiar")

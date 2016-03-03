@@ -1,0 +1,23 @@
+{
+  "name": "ExamenParcial1",
+  "version": "1.0.0",
+  "description": "Calculadora que suma, resta, multiplica y divide dos numeros.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eZubia/ExamenParcial1.git"
+  },
+  "author": "Erik Zubia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eZubia/ExamenParcial1/issues"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "jade": "^1.11.0"
+  }
+}
